@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-08-03T16:40:58.931442+00:00",
+  "market_date": "2026-08-03",
+  "market_risk_score": 17,
+  "risk_level": "NORMAL",
+  "block_new_entries": false,
+  "SPY": {
+    "risk_score": 7,
+    "risk_level": "NORMAL",
+    "max_exposure_factor": 1.0,
+    "reasons": [
+      "IWM débil frente a SPY"
+    ]
+  },
+  "QQQ": {
+    "risk_score": 17,
+    "risk_level": "NORMAL",
+    "max_exposure_factor": 1.0,
+    "reasons": [
+      "Precio bajo SMA50",
+      "IWM débil frente a SPY"
+    ]
+  }
+}
