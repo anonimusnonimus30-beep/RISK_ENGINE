@@ -942,6 +942,18 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    state_dir = Path("state")
+    state_dir.mkdir(parents=True, exist_ok=True)
+
+    Path("state/risk_state.json").write_text(
+        json.dumps(
+            state,
+            indent=2,
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+
     print("\n=== CONFIGURACIONES SELECCIONADAS ===")
 
     for symbol, config in selected.items():
