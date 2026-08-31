@@ -1,18 +1,19 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-28T23:05:00.538951+00:00",
-  "market_date": "2026-08-28",
+  "generated_at_utc": "2026-08-31T19:32:22.771259+00:00",
+  "market_date": "2026-08-31",
   "market_risk_score": 11,
   "risk_level": "NORMAL",
   "block_new_entries": false,
   "SPY": {
     "selected_config": "strict",
-    "risk_score": 7,
+    "risk_score": 11,
     "risk_level": "NORMAL",
     "raw_risk_level": "NORMAL",
     "max_exposure_factor": 1.0,
     "cooldown_remaining": 0,
     "reasons": [
+      "Precio bajo SMA20",
       "IWM débil frente a SPY",
       "IWM/SPY bajo su media de 50 sesiones"
     ]
