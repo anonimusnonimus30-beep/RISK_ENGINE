@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-14T18:03:48.637971+00:00",
+  "generated_at_utc": "2026-10-14T21:48:30.054391+00:00",
   "market_date": "2026-10-14",
-  "market_risk_score": 26,
+  "market_risk_score": 18,
   "risk_level": "NORMAL",
   "block_new_entries": false,
   "SPY": {
@@ -21,14 +21,13 @@
   },
   "QQQ": {
     "selected_config": "strict",
-    "risk_score": 26,
+    "risk_score": 18,
     "risk_level": "NORMAL",
     "raw_risk_level": "NORMAL",
     "max_exposure_factor": 1.0,
     "cooldown_remaining": 0,
     "reasons": [
       "Precio bajo SMA20",
-      "Caída diaria superior a 2%",
       "IWM débil frente a SPY",
       "IWM/SPY bajo su media de 50 sesiones",
       "Deterioro fuerte de amplitud"
