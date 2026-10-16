@@ -1,23 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-16T17:31:15.412647+00:00",
+  "generated_at_utc": "2026-10-16T21:22:28.404391+00:00",
   "market_date": "2026-10-16",
-  "market_risk_score": 88,
+  "market_risk_score": 68,
   "risk_level": "NORMAL",
   "block_new_entries": false,
   "SPY": {
     "selected_config": "strict",
-    "risk_score": 53,
+    "risk_score": 33,
     "risk_level": "NORMAL",
-    "raw_risk_level": "WATCH",
+    "raw_risk_level": "NORMAL",
     "max_exposure_factor": 1.0,
     "cooldown_remaining": 0,
     "reasons": [
       "Precio bajo SMA50",
       "Precio bajo SMA20",
-      "VIX superior a 20",
-      "VIX sube más de 25% en una sesión",
-      "VIX sube más de 35% en tres sesiones",
+      "VIX sube más de 15% en una sesión",
       "IWM débil frente a SPY",
       "IWM/SPY bajo su media de 50 sesiones",
       "Deterioro fuerte de amplitud"
@@ -25,9 +23,9 @@
   },
   "QQQ": {
     "selected_config": "strict",
-    "risk_score": 88,
+    "risk_score": 68,
     "risk_level": "NORMAL",
-    "raw_risk_level": "CRITICAL",
+    "raw_risk_level": "HIGH",
     "max_exposure_factor": 1.0,
     "cooldown_remaining": 0,
     "reasons": [
@@ -37,9 +35,7 @@
       "Caída diaria superior a 2%",
       "Caída de tres sesiones superior a 3.5%",
       "Caída de cinco sesiones superior a 4.5%",
-      "VIX superior a 20",
-      "VIX sube más de 25% en una sesión",
-      "VIX sube más de 35% en tres sesiones",
+      "VIX sube más de 15% en una sesión",
       "IWM débil frente a SPY",
       "IWM/SPY bajo su media de 50 sesiones",
       "Deterioro fuerte de amplitud"
