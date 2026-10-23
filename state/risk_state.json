@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-22T21:45:02.305486+00:00",
-  "market_date": "2026-10-22",
-  "market_risk_score": 37,
+  "generated_at_utc": "2026-10-23T17:54:04.783740+00:00",
+  "market_date": "2026-10-23",
+  "market_risk_score": 33,
   "risk_level": "NORMAL",
   "block_new_entries": false,
   "SPY": {
     "selected_config": "strict",
-    "risk_score": 16,
+    "risk_score": 20,
     "risk_level": "NORMAL",
     "raw_risk_level": "NORMAL",
     "max_exposure_factor": 1.0,
@@ -15,12 +15,13 @@
     "reasons": [
       "Precio bajo SMA50",
       "Precio bajo SMA20",
+      "VIX superior a 20",
       "IWM/SPY bajo su media de 50 sesiones"
     ]
   },
   "QQQ": {
     "selected_config": "strict",
-    "risk_score": 37,
+    "risk_score": 33,
     "risk_level": "NORMAL",
     "raw_risk_level": "NORMAL",
     "max_exposure_factor": 1.0,
@@ -29,7 +30,7 @@
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
-      "Caída diaria superior a 2%",
+      "VIX superior a 20",
       "IWM/SPY bajo su media de 50 sesiones"
     ]
   }
