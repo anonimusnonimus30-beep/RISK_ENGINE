@@ -1,22 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-28T23:19:56.203289+00:00",
-  "market_date": "2026-10-28",
-  "market_risk_score": 8,
+  "generated_at_utc": "2026-10-29T19:01:07.580962+00:00",
+  "market_date": "2026-10-29",
+  "market_risk_score": 29,
   "risk_level": "NORMAL",
   "block_new_entries": false,
   "SPY": {
-    "selected_config": "strict",
-    "risk_score": 4,
-    "risk_level": "NORMAL",
-    "raw_risk_level": "NORMAL",
-    "max_exposure_factor": 1.0,
-    "cooldown_remaining": 0,
-    "reasons": [
-      "IWM/SPY bajo su media de 50 sesiones"
-    ]
-  },
-  "QQQ": {
     "selected_config": "strict",
     "risk_score": 8,
     "risk_level": "NORMAL",
@@ -24,6 +13,20 @@
     "max_exposure_factor": 1.0,
     "cooldown_remaining": 0,
     "reasons": [
+      "Precio bajo SMA20",
+      "IWM/SPY bajo su media de 50 sesiones"
+    ]
+  },
+  "QQQ": {
+    "selected_config": "strict",
+    "risk_score": 29,
+    "risk_level": "NORMAL",
+    "raw_risk_level": "NORMAL",
+    "max_exposure_factor": 1.0,
+    "cooldown_remaining": 0,
+    "reasons": [
+      "Precio bajo SMA100",
+      "Precio bajo SMA50",
       "Precio bajo SMA20",
       "IWM/SPY bajo su media de 50 sesiones"
     ]
