@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-02T22:22:11.919497+00:00",
-  "market_date": "2026-11-02",
-  "market_risk_score": 51,
+  "generated_at_utc": "2026-11-03T20:10:06.676604+00:00",
+  "market_date": "2026-11-03",
+  "market_risk_score": 48,
   "risk_level": "WATCH",
   "block_new_entries": false,
   "SPY": {
@@ -21,18 +21,18 @@
   },
   "QQQ": {
     "selected_config": "strict",
-    "risk_score": 51,
+    "risk_score": 48,
     "risk_level": "WATCH",
     "raw_risk_level": "WATCH",
     "max_exposure_factor": 0.85,
-    "cooldown_remaining": 5,
+    "cooldown_remaining": 4,
     "reasons": [
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
-      "Caída de tres sesiones superior a 5%",
+      "Caída de tres sesiones superior a 3.5%",
+      "Caída de cinco sesiones superior a 4.5%",
       "Momentum mensual negativo",
-      "Drawdown trimestral superior a 10%",
       "VIX superior a 20"
     ]
   }
