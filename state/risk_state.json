@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-13T20:31:27.235608+00:00",
-  "market_date": "2026-11-13",
-  "market_risk_score": 68,
+  "generated_at_utc": "2026-11-16T22:56:17.643975+00:00",
+  "market_date": "2026-11-16",
+  "market_risk_score": 99,
   "risk_level": "CRITICAL",
   "block_new_entries": true,
   "SPY": {
     "selected_config": "strict",
-    "risk_score": 32,
+    "risk_score": 43,
     "risk_level": "NORMAL",
     "raw_risk_level": "NORMAL",
     "max_exposure_factor": 1.0,
@@ -16,14 +16,16 @@
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
+      "VIX superior a 20",
+      "VIX sube más de 15% en una sesión",
       "Aceleración brusca de volatilidad"
     ]
   },
   "QQQ": {
     "selected_config": "strict",
-    "risk_score": 68,
+    "risk_score": 99,
     "risk_level": "CRITICAL",
-    "raw_risk_level": "HIGH",
+    "raw_risk_level": "CRITICAL",
     "max_exposure_factor": 0.2,
     "cooldown_remaining": 0,
     "reasons": [
@@ -31,9 +33,14 @@
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
+      "Caída diaria superior a 2%",
+      "Caída de tres sesiones superior a 3.5%",
       "Drawdown trimestral superior a 10%",
+      "VIX superior a 20",
+      "VIX sube más de 15% en una sesión",
       "Volatilidad realizada superior a 35%",
-      "Aceleración brusca de volatilidad"
+      "Aceleración brusca de volatilidad",
+      "Acciones y bonos caen simultáneamente"
     ]
   }
 }
