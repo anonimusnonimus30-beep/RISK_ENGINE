@@ -1,28 +1,32 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-18T21:28:29.292220+00:00",
-  "market_date": "2026-11-18",
-  "market_risk_score": 82,
+  "generated_at_utc": "2026-11-19T21:40:26.550042+00:00",
+  "market_date": "2026-11-19",
+  "market_risk_score": 100,
   "risk_level": "CRITICAL",
   "block_new_entries": true,
   "SPY": {
     "selected_config": "strict",
-    "risk_score": 41,
+    "risk_score": 85,
     "risk_level": "NORMAL",
-    "raw_risk_level": "NORMAL",
+    "raw_risk_level": "CRITICAL",
     "max_exposure_factor": 1.0,
     "cooldown_remaining": 0,
     "reasons": [
+      "Precio bajo SMA200",
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
+      "Caída de cinco sesiones superior a 4.5%",
       "VIX superior a 24",
+      "VIX sube más de 15% en una sesión",
+      "VIX sube más de 50% en cinco sesiones",
       "Aceleración brusca de volatilidad"
     ]
   },
   "QQQ": {
     "selected_config": "strict",
-    "risk_score": 82,
+    "risk_score": 100,
     "risk_level": "CRITICAL",
     "raw_risk_level": "CRITICAL",
     "max_exposure_factor": 0.2,
@@ -32,11 +36,14 @@
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
+      "Caída diaria superior a 2%",
+      "Caída de cinco sesiones superior a 4.5%",
       "Momentum mensual negativo",
-      "Drawdown trimestral superior a 10%",
+      "Drawdown trimestral superior a 15%",
       "VIX superior a 24",
-      "Volatilidad realizada superior a 35%",
-      "Aceleración brusca de volatilidad"
+      "VIX sube más de 15% en una sesión",
+      "VIX sube más de 50% en cinco sesiones",
+      "Volatilidad realizada superior a 35%"
     ]
   }
 }
