@@ -1,25 +1,30 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-19T21:40:26.550042+00:00",
-  "market_date": "2026-11-19",
+  "generated_at_utc": "2026-11-20T21:17:40.287534+00:00",
+  "market_date": "2026-11-20",
   "market_risk_score": 100,
   "risk_level": "CRITICAL",
   "block_new_entries": true,
   "SPY": {
     "selected_config": "strict",
-    "risk_score": 85,
-    "risk_level": "NORMAL",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
     "raw_risk_level": "CRITICAL",
-    "max_exposure_factor": 1.0,
-    "cooldown_remaining": 0,
+    "max_exposure_factor": 0.2,
+    "cooldown_remaining": 5,
     "reasons": [
       "Precio bajo SMA200",
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
-      "Caída de cinco sesiones superior a 4.5%",
-      "VIX superior a 24",
-      "VIX sube más de 15% en una sesión",
+      "Caída diaria superior a 3%",
+      "Caída de tres sesiones superior a 5%",
+      "Caída de cinco sesiones superior a 7%",
+      "Momentum mensual negativo",
+      "Drawdown trimestral superior a 10%",
+      "VIX superior a 30",
+      "VIX sube más de 25% en una sesión",
+      "VIX sube más de 35% en tres sesiones",
       "VIX sube más de 50% en cinco sesiones",
       "Aceleración brusca de volatilidad"
     ]
@@ -36,14 +41,17 @@
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
-      "Caída diaria superior a 2%",
-      "Caída de cinco sesiones superior a 4.5%",
-      "Momentum mensual negativo",
+      "Caída diaria superior a 3%",
+      "Caída de tres sesiones superior a 5%",
+      "Caída de cinco sesiones superior a 7%",
+      "Momentum mensual extremadamente negativo",
       "Drawdown trimestral superior a 15%",
-      "VIX superior a 24",
-      "VIX sube más de 15% en una sesión",
+      "VIX superior a 30",
+      "VIX sube más de 25% en una sesión",
+      "VIX sube más de 35% en tres sesiones",
       "VIX sube más de 50% en cinco sesiones",
-      "Volatilidad realizada superior a 35%"
+      "Volatilidad realizada superior a 35%",
+      "Aceleración brusca de volatilidad"
     ]
   }
 }
