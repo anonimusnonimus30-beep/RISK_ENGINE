@@ -1,32 +1,32 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-26T22:26:27.843893+00:00",
-  "market_date": "2026-11-25",
-  "market_risk_score": 92,
+  "generated_at_utc": "2026-11-27T22:07:11.246277+00:00",
+  "market_date": "2026-11-27",
+  "market_risk_score": 77,
   "risk_level": "CRITICAL",
   "block_new_entries": true,
   "SPY": {
     "selected_config": "strict",
-    "risk_score": 68,
+    "risk_score": 63,
     "risk_level": "CRITICAL",
-    "raw_risk_level": "HIGH",
+    "raw_risk_level": "WATCH",
     "max_exposure_factor": 0.2,
-    "cooldown_remaining": 2,
+    "cooldown_remaining": 1,
     "reasons": [
       "Precio bajo SMA200",
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
-      "VIX superior a 24",
+      "VIX superior a 20",
       "Volatilidad realizada elevada",
       "Aceleración brusca de volatilidad"
     ]
   },
   "QQQ": {
     "selected_config": "strict",
-    "risk_score": 92,
+    "risk_score": 77,
     "risk_level": "CRITICAL",
-    "raw_risk_level": "CRITICAL",
+    "raw_risk_level": "HIGH",
     "max_exposure_factor": 0.2,
     "cooldown_remaining": 0,
     "reasons": [
@@ -34,9 +34,9 @@
       "Precio bajo SMA100",
       "Precio bajo SMA50",
       "Precio bajo SMA20",
-      "Momentum mensual extremadamente negativo",
-      "Drawdown trimestral superior a 15%",
-      "VIX superior a 24",
+      "Momentum mensual negativo",
+      "Drawdown trimestral superior a 10%",
+      "VIX superior a 20",
       "Volatilidad realizada superior a 35%",
       "Aceleración brusca de volatilidad"
     ]
